@@ -1,0 +1,140 @@
+.App {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  border-bottom: 1px #CCC solid;
+  width: 100%;
+  background-color: white;
+}
+
+.App-body {
+  margin-top: 5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.Timer {
+  border: 0.75px solid #CCC;
+  border-radius: 5px;
+  padding: 10px 10px;
+  
+  display: flex;
+  flex-direction: column;
+  
+  width: 60vw;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 15px;
+  
+  min-height: 120px;
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.time {
+  color: #666;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 10px;
+  
+  align-self: center;
+}
+
+.btn-delete {
+  height: 25px;
+  width: 25px;
+  
+  background-color: white;
+  color: red;
+  border: none;
+  align-self: flex-end;
+}
+
+.btn-toggle {
+  height: 3rem;
+  margin: -0px -10px -10px -10px;
+  background-color: white;
+  border-radius: 0px 0px 5px 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #009900;
+  border: 2px #099909 solid;
+}
+
+.btn-active {
+  border-color: red;
+  color: red;
+}
+
+.btn-add-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn-add {
+  height: 2rem;
+  width: 2rem;
+  font-weight: 600;
+  color: #888;
+  font-size: 1.3rem;
+  background-color: white;
+  border-radius: 5px;
+  border: 0.75px solid #CCC;
+}
+
+div.buttons {
+  position: relative;
+  margin: 10px -10px -10px -10px;
+  bottom: 0;
+}
+
+.btn-create {
+  width: 50%;
+  height: 3rem;
+  background-color: white;
+  border-radius: 0px 0px 0 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(0,130,240,1);
+  border: 2px rgba(0,130,240,1) solid;
+  border-right: none;
+}
+
+.btn-cancel {
+  width: 50%;
+  height: 3rem;
+  background-color: white;
+  border-radius: 0px 0px 5px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: rgba(220,0,0,1);
+  border: 2px rgba(220,0,0,1) solid;
+}
+
+.Timer input {
+  display: block;
+  height: 3rem;
+  border: 1.5px solid #DDD;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+  width: 100%;
+  font-size: 2rem;
+}
